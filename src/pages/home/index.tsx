@@ -29,13 +29,13 @@ class Home extends PureComponent {
     }
 
     render() {
-        return <Spiner loading={true}>
+        return <Spiner loading={false}>
             <div onClick={() => {
             history.push({
                 pathname: "/group/home/detail"
             })
            }}>
-            我的首页
+          <a href="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=353249336,1088977409&fm=26&gp=0.jpg" download><img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=353249336,1088977409&fm=26&gp=0.jpg"/></a>
            </div>
         </Spiner>
     }
